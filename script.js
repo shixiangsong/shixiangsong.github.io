@@ -120,6 +120,7 @@ const siteContent = {
     contact: {
       text: "Open to research conversations around efficient LLM architectures, adaptive inference, and post-training.",
       email: "songshixiang@sjtu.edu.cn",
+      scholar: "Google Scholar",
       github: "GitHub",
       x: "X",
       rednote: "RedNote"
@@ -236,7 +237,7 @@ const siteContent = {
         date: "2025.09 - 至今"
       },
       {
-        title: "计算机科学与技术（IEEE试点班）本科",
+        title: "计算机科学与技术（IEEE Pilot Class）本科",
         place: "上海交通大学",
         date: "2021.09 - 2025.06"
       },
@@ -250,6 +251,7 @@ const siteContent = {
     contact: {
       text: "欢迎围绕高效大模型架构、自适应推理与训练后优化进行交流。",
       email: "songshixiang@sjtu.edu.cn",
+      scholar: "Google Scholar",
       github: "GitHub",
       x: "X",
       rednote: "小红书"
@@ -380,6 +382,7 @@ const siteContent = {
     contact: {
       text: "効率的な LLM アーキテクチャ、適応的推論、ポストトレーニングに関する研究交流を歓迎します。",
       email: "songshixiang@sjtu.edu.cn",
+      scholar: "Google Scholar",
       github: "GitHub",
       x: "X",
       rednote: "RED"
@@ -494,6 +497,7 @@ function setLanguage(language, updateUrl = true) {
     <p>${content.contact.text}</p>
     <div class="contact-links">
       <a class="button" href="mailto:${content.contact.email}">${content.contact.email}</a>
+      <a class="button secondary" href="https://scholar.google.com/citations?user=HSIJT2gAAAAJ&hl=en">${content.contact.scholar}</a>
       <a class="button secondary" href="https://github.com/shixiangsong">${content.contact.github}</a>
       <a class="button secondary" href="https://x.com/ShixiangSONG">${content.contact.x}</a>
       <a class="button secondary" href="https://www.xiaohongshu.com/user/profile/650172ae000000000603276e">${content.contact.rednote}</a>
