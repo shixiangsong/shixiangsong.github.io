@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Personal academic website of Shixiang Song.">
+    <meta name="theme-color" content="#f7f4ed">
+    <link rel="preload" href="assets/profile.jpeg" as="image">
+    <link rel="stylesheet" href="styles.css">
+    <title>Shixiang Song</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Shixiang Song home">Shixiang Song</a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#news" data-nav="news">News</a>
+        <a href="#publications" data-nav="publications">Publications</a>
+        <a href="#experience" data-nav="experience">Experience</a>
+        <a href="#visitors" data-nav="visitors">Visitors</a>
+        <a href="#contact" data-nav="contact">Contact</a>
+      </nav>
+      <div class="language-switcher" aria-label="Language">
+        <button type="button" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" data-lang="zh" aria-pressed="false">中文</button>
+        <button type="button" data-lang="ja" aria-pressed="false">日本語</button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow" id="hero-eyebrow"></p>
+          <h1 id="hero-name"></h1>
+          <p class="hero-role" id="hero-role"></p>
+          <p class="hero-intro" id="hero-intro"></p>
+          <div class="hero-actions" id="hero-actions"></div>
+        </div>
+        <figure class="portrait-frame">
+          <img src="assets/profile.jpeg" alt="Portrait of Shixiang Song">
+        </figure>
+      </section>
+
+      <section class="section-shell academic-section" id="news">
+        <div class="section-heading">
+          <p class="eyebrow" data-section-label="news"></p>
+          <h2 data-section-title="news"></h2>
+        </div>
+        <div class="news-list" id="news-list"></div>
+      </section>
+
+      <section class="section-shell band" id="publications">
+        <div class="section-heading">
+          <p class="eyebrow" data-section-label="publications"></p>
+          <h2 data-section-title="publications"></h2>
+        </div>
+        <div class="publication-list" id="publication-list"></div>
+      </section>
+
+      <section class="section-shell" id="experience">
+        <div class="section-heading">
+          <p class="eyebrow" data-section-label="experience"></p>
+          <h2 data-section-title="experience"></h2>
+        </div>
+        <div class="timeline" id="timeline"></div>
+      </section>
+
+      <section class="section-shell two-column" id="education-skills">
+        <div>
+          <div class="section-heading compact">
+            <p class="eyebrow" data-section-label="education"></p>
+            <h2 data-section-title="education"></h2>
+          </div>
+          <div class="stack-list" id="education-list"></div>
+        </div>
+        <div>
+          <div class="section-heading compact">
+            <p class="eyebrow" data-section-label="skills"></p>
+            <h2 data-section-title="skills"></h2>
+          </div>
+          <div class="skill-list" id="skill-list"></div>
+        </div>
+      </section>
+
+      <section class="section-shell academic-section" id="visitors">
+        <div class="section-heading">
+          <p class="eyebrow" data-section-label="visitors"></p>
+          <h2 data-section-title="visitors"></h2>
+        </div>
+        <div class="visitor-panel">
+          <div id="visitor-copy"></div>
+          <div class="visitor-widget" id="visitor-widget" aria-label="Global visitor statistics">
+            <a href="https://info.flagcounter.com/O8AW" target="_blank" rel="noopener">
+              <img src="https://s05.flagcounter.com/map/O8AW/size_m/txt_000000/border_CCCCCC/pageviews_1/viewers_0/flags_0/" alt="Flag Counter" border="0">
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section-shell band" id="contact">
+        <div class="section-heading">
+          <p class="eyebrow" data-section-label="contact"></p>
+          <h2 data-section-title="contact"></h2>
+        </div>
+        <div class="contact-panel" id="contact-panel"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span id="footer-text"></span>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
