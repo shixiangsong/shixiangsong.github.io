@@ -106,7 +106,7 @@ const siteContent = {
         date: "2025.09 - Present"
       },
       {
-        title: "B.Eng., Computer Science and Technology",
+        title: "B.Eng., Computer Science and Technology (IEEE Pilot Class)",
         place: "Shanghai Jiao Tong University",
         date: "2021.09 - 2025.06"
       },
@@ -236,7 +236,7 @@ const siteContent = {
         date: "2025.09 - 至今"
       },
       {
-        title: "计算机科学与技术本科",
+        title: "计算机科学与技术（IEEE试点班）本科",
         place: "上海交通大学",
         date: "2021.09 - 2025.06"
       },
@@ -366,7 +366,7 @@ const siteContent = {
         date: "2025.09 - 現在"
       },
       {
-        title: "学士, コンピュータ科学と技術",
+        title: "学士, コンピュータ科学と技術（IEEEパイロットクラス）",
         place: "上海交通大学",
         date: "2021.09 - 2025.06"
       },
