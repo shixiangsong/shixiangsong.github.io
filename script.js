@@ -237,7 +237,7 @@ const siteContent = {
         date: "2025.09 - 至今"
       },
       {
-        title: "计算机科学与技术（IEEE Pilot Class）本科",
+        title: "计算机科学与技术（IEEE试点班）本科",
         place: "上海交通大学",
         date: "2021.09 - 2025.06"
       },
